@@ -1,5 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { RoleEnum } from 'src/common/enum/Role.enum';
+import { RoleEnum } from '../../../common/enum/Role.enum';
 @Schema({
   collection: 'users',
 })
