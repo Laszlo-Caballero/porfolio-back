@@ -10,8 +10,8 @@ import {
 } from '@nestjs/common';
 import { FilesService } from './files.service';
 import { FileInterceptor } from '@nestjs/platform-express';
-import { Auth } from 'src/common/decorator/auth/auth.decorator';
-import { RoleEnum } from 'src/common/enum/Role.enum';
+import { Auth } from '../../common/decorator/auth/auth.decorator';
+import { RoleEnum } from '../../common/enum/Role.enum';
 
 @Controller('files')
 export class FilesController {

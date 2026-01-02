@@ -10,7 +10,7 @@ import {
 import { ExperienceService } from './experience.service';
 import { CreateExperienceDto } from './dto/create-experience.dto';
 import { UpdateExperienceDto } from './dto/update-experience.dto';
-import { Auth } from 'src/common/decorator/auth/auth.decorator';
+import { Auth } from '../../common/decorator/auth/auth.decorator';
 
 @Controller('experience')
 export class ExperienceController {

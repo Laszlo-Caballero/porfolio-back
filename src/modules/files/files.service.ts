@@ -2,7 +2,7 @@ import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { FileEntity } from './entities/file.entity';
 import { Model } from 'mongoose';
-import { CloudinaryResponse } from 'src/common/cloudinary/cloudinary-response';
+import { CloudinaryResponse } from '../../common/cloudinary/cloudinary-response';
 import { v2 as cloudinary, DeleteApiResponse } from 'cloudinary';
 import * as streamifier from 'streamifier';
 

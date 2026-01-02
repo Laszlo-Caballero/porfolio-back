@@ -10,8 +10,8 @@ import {
 import { ProjectsService } from './projects.service';
 import { CreateProjectDto } from './dto/create-project.dto';
 import { UpdateProjectDto } from './dto/update-project.dto';
-import { Auth } from 'src/common/decorator/auth/auth.decorator';
-import { RoleEnum } from 'src/common/enum/Role.enum';
+import { Auth } from '../../common/decorator/auth/auth.decorator';
+import { RoleEnum } from '../../common/enum/Role.enum';
 
 @Controller('projects')
 export class ProjectsController {

@@ -2,8 +2,8 @@ import { Controller, Get, Post, Body } from '@nestjs/common';
 import { TecnologieService } from './tecnologie.service';
 import { CreateTecnologieDto } from './dto/create-tecnologie.dto';
 import { InsertManyTecnologieDto } from './dto/InsertMany.dto';
-import { Auth } from 'src/common/decorator/auth/auth.decorator';
-import { RoleEnum } from 'src/common/enum/Role.enum';
+import { Auth } from '../../common/decorator/auth/auth.decorator';
+import { RoleEnum } from '../../common/enum/Role.enum';
 
 @Controller('tecnologie')
 export class TecnologieController {
