@@ -7,6 +7,9 @@ import { ExperienceModule } from './modules/experience/experience.module';
 import { FilesModule } from './modules/files/files.module';
 import { ProjectsModule } from './modules/projects/projects.module';
 import { TecnologieModule } from './modules/tecnologie/tecnologie.module';
+import { ProyectsModule } from './public/proyects/proyects.module';
+import { TecnologiesModule } from './public/tecnologies/tecnologies.module';
+import { ExperiencePublicModule } from './public/experience/experience.module';
 
 @Module({
   imports: [
@@ -18,6 +21,9 @@ import { TecnologieModule } from './modules/tecnologie/tecnologie.module';
     FilesModule,
     ProjectsModule,
     TecnologieModule,
+    ProyectsModule,
+    TecnologiesModule,
+    ExperiencePublicModule,
   ],
   controllers: [],
   providers: [],
