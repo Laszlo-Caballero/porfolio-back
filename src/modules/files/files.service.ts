@@ -32,6 +32,7 @@ export class FilesService {
           },
         );
 
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-call
         streamifier.createReadStream(file.buffer).pipe(uploadStream);
       });
 
