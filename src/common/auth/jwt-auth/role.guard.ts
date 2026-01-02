@@ -1,4 +1,4 @@
-import { ROLE_KEY } from '@common/decorator/auth/role.decorator';
+import { ROLE_KEY } from '../../decorator/auth/role.decorator';
 import { RoleEnum } from '../../enum/Role.enum';
 import { RequestUser } from '../../interface/auth.interface';
 import { CanActivate, ExecutionContext, Injectable } from '@nestjs/common';
