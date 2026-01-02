@@ -5,6 +5,8 @@ import { ConfigModule } from '@nestjs/config';
 import { EmailModule } from './modules/email/email.module';
 import { ExperienceModule } from './modules/experience/experience.module';
 import { FilesModule } from './modules/files/files.module';
+import { ProjectsModule } from './modules/projects/projects.module';
+import { TecnologieModule } from './modules/tecnologie/tecnologie.module';
 
 @Module({
   imports: [
@@ -14,6 +16,8 @@ import { FilesModule } from './modules/files/files.module';
     EmailModule,
     ExperienceModule,
     FilesModule,
+    ProjectsModule,
+    TecnologieModule,
   ],
   controllers: [],
   providers: [],
