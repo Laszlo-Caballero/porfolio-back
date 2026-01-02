@@ -5,14 +5,14 @@ import {
   Arquitecture,
   ArquitectureSchema,
 } from './arquitecture/arquitecture.schema';
-import { v4 as uuid } from 'uuid';
+import { randomUUID } from 'crypto';
 
 @Schema({
   collection: 'proyects',
 })
 export class Project {
   @Prop({
-    default: uuid(),
+    default: randomUUID(),
   })
   projectId: string;
 

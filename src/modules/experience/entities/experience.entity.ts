@@ -1,12 +1,11 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { v4 as uuid } from 'uuid';
-
+import { randomUUID } from 'crypto';
 @Schema({
   collection: 'experiences',
 })
 export class Experience {
   @Prop({
-    default: uuid(),
+    default: randomUUID(),
   })
   experienceId: string;
 
